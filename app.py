@@ -63,7 +63,7 @@ def load_data():
 
 
 df = load_data()
-//# Filter data based on inputs (runs on Coiled)
+# Filter data based on inputs (runs on Coiled)
 with st.spinner("Calculating map data..."):
    map_data = df[
        (df["passenger_count"] >= num_passengers[0])
